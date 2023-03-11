@@ -238,3 +238,5 @@
 [Sat Mar 11 16:27:08 2023|train_eval.py|INFO] Iter:  15000,  Val P: 0.6653,  Val R: 54.2643%,  Val F1: 0.5842,  Val Acc: 79.5097%,  Time: 5:48:32 
 [Sat Mar 11 16:34:11 2023|train_eval.py|INFO] Iter:  15300,  Val P: 0.6623,  Val R: 54.4720%,  Val F1: 0.5824,  Val Acc: 79.7070%,  Time: 5:55:35 
 [Sat Mar 11 16:39:21 2023|train_eval.py|INFO] =====µÚ25ÂÖÑµÁ·=====
+[Sat Mar 11 16:41:40 2023|train_eval.py|INFO] Iter:  15600,  Val P: 0.6635,  Val R: 55.0180%,  Val F1: 0.5894,  Val Acc: 79.7375%,  Time: 6:03:05 
+[Sat Mar 11 16:48:51 2023|train_eval.py|INFO] Iter:  15900,  Val P: 0.6612,  Val R: 54.2652%,  Val F1: 0.582,  Val Acc: 79.6013%,  Time: 6:10:15 
