@@ -1,0 +1,11 @@
+# Ignore File
+# Idea
+.idea
+__pycache__
+# 预训练模型
+/bert-pretrain/
+
+# 数据
+/datasets/**/*.json
+/datasets/**/*.txt
+/datasets/**/*.ckpt

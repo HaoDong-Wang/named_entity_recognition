@@ -1,0 +1,240 @@
+[Tue Mar 07 22:37:38 2023|run.py|INFO] 数据加载完成
+[Tue Mar 07 22:37:38 2023|modeling.py|INFO] loading archive file ./bert-pretrain/
+[Tue Mar 07 22:37:38 2023|modeling.py|INFO] Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+[Tue Mar 07 22:37:39 2023|run.py|INFO] 模型加载完成
+[Tue Mar 07 22:37:39 2023|run.py|INFO] 开始训练
+[Tue Mar 07 22:37:39 2023|train_eval.py|INFO] =====第0轮训练=====
+[Tue Mar 07 22:40:46 2023|run.py|INFO] 数据加载完成
+[Tue Mar 07 22:40:46 2023|modeling.py|INFO] loading archive file ./bert-pretrain/
+[Tue Mar 07 22:40:46 2023|modeling.py|INFO] Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+[Tue Mar 07 22:40:48 2023|run.py|INFO] 模型加载完成
+[Tue Mar 07 22:40:48 2023|run.py|INFO] 开始训练
+[Tue Mar 07 22:40:48 2023|train_eval.py|INFO] =====第0轮训练=====
+[Tue Mar 07 22:45:39 2023|train_eval.py|INFO] Iter:    200,  Val P: 0.1495,  Val R: 8.6984%,  Val F1: 0.07822,  Val Acc: 76.6285%,  Time: 0:04:51 *
+[Tue Mar 07 22:50:05 2023|train_eval.py|INFO] Iter:    400,  Val P: 0.07255,  Val R: 9.0908%,  Val F1: 0.07959,  Val Acc: 79.7537%,  Time: 0:09:17 
+[Tue Mar 07 22:54:40 2023|train_eval.py|INFO] Iter:    600,  Val P: 0.1533,  Val R: 13.5634%,  Val F1: 0.1251,  Val Acc: 80.6399%,  Time: 0:13:52 
+[Tue Mar 07 22:55:05 2023|train_eval.py|INFO] =====第1轮训练=====
+[Wed Mar 08 14:42:41 2023|run.py|INFO] 数据加载完成
+[Wed Mar 08 14:42:41 2023|modeling.py|INFO] loading archive file ./bert-pretrain/
+[Wed Mar 08 14:42:41 2023|modeling.py|INFO] Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+[Wed Mar 08 14:42:42 2023|run.py|INFO] 模型加载完成
+[Wed Mar 08 14:42:42 2023|run.py|INFO] 开始训练
+[Wed Mar 08 14:42:42 2023|train_eval.py|INFO] =====第0轮训练=====
+[Wed Mar 08 14:45:21 2023|run.py|INFO] 数据加载完成
+[Wed Mar 08 14:45:21 2023|modeling.py|INFO] loading archive file ./bert-pretrain/
+[Wed Mar 08 14:45:21 2023|modeling.py|INFO] Model config {
+  "architectures": [
+    "BertForMaskedLM"
+  ],
+  "attention_probs_dropout_prob": 0.1,
+  "directionality": "bidi",
+  "hidden_act": "gelu",
+  "hidden_dropout_prob": 0.1,
+  "hidden_size": 768,
+  "initializer_range": 0.02,
+  "intermediate_size": 3072,
+  "layer_norm_eps": 1e-12,
+  "max_position_embeddings": 512,
+  "model_type": "bert",
+  "num_attention_heads": 12,
+  "num_hidden_layers": 12,
+  "pad_token_id": 0,
+  "pooler_fc_size": 768,
+  "pooler_num_attention_heads": 12,
+  "pooler_num_fc_layers": 3,
+  "pooler_size_per_head": 128,
+  "pooler_type": "first_token_transform",
+  "type_vocab_size": 2,
+  "vocab_size": 21128
+}
+
+[Wed Mar 08 14:45:23 2023|run.py|INFO] 模型加载完成
+[Wed Mar 08 14:45:23 2023|run.py|INFO] 开始训练
+[Wed Mar 08 14:45:23 2023|train_eval.py|INFO] =====第0轮训练=====
+[Wed Mar 08 14:49:59 2023|train_eval.py|INFO] Iter:    100,  Val P: 0.05454,  Val R: 3.2390%,  Val F1: 0.03641,  Val Acc: 31.0020%,  Time: 0:04:37 *
+[Wed Mar 08 14:54:04 2023|train_eval.py|INFO] Iter:    200,  Val P: 0.03065,  Val R: 5.0000%,  Val F1: 0.038,  Val Acc: 61.3000%,  Time: 0:08:42 
+[Wed Mar 08 14:58:39 2023|train_eval.py|INFO] Iter:    300,  Val P: 0.04107,  Val R: 5.0010%,  Val F1: 0.03803,  Val Acc: 61.3008%,  Time: 0:13:16 
+[Sat Mar 11 10:16:29 2023|run.py|INFO] 数据加载完成
+[Sat Mar 11 10:16:29 2023|run.py|INFO] 模型加载完成
+[Sat Mar 11 10:16:29 2023|run.py|INFO] 开始训练
+[Sat Mar 11 10:16:52 2023|run.py|INFO] 数据加载完成
+[Sat Mar 11 10:16:52 2023|run.py|INFO] 模型加载完成
+[Sat Mar 11 10:16:52 2023|run.py|INFO] 开始训练
+[Sat Mar 11 10:16:52 2023|train_eval.py|INFO] =====第0轮训练=====
+[Sat Mar 11 10:23:04 2023|run.py|INFO] 数据加载完成
+[Sat Mar 11 10:23:04 2023|run.py|INFO] 模型加载完成
+[Sat Mar 11 10:23:04 2023|run.py|INFO] 开始训练
+[Sat Mar 11 10:23:04 2023|train_eval.py|INFO] =====第0轮训练=====
+[Sat Mar 11 10:23:37 2023|run.py|INFO] 数据加载完成
+[Sat Mar 11 10:23:37 2023|run.py|INFO] 模型加载完成
+[Sat Mar 11 10:23:37 2023|run.py|INFO] 开始训练
+[Sat Mar 11 10:23:37 2023|train_eval.py|INFO] =====第0轮训练=====
+[Sat Mar 11 10:29:09 2023|run.py|INFO] 数据加载完成
+[Sat Mar 11 10:29:09 2023|run.py|INFO] 模型加载完成
+[Sat Mar 11 10:29:09 2023|run.py|INFO] 开始训练
+[Sat Mar 11 10:29:09 2023|train_eval.py|INFO] =====第0轮训练=====
+[Sat Mar 11 10:32:55 2023|run.py|INFO] 数据加载完成
+[Sat Mar 11 10:32:55 2023|run.py|INFO] 模型加载完成
+[Sat Mar 11 10:32:55 2023|run.py|INFO] 开始训练
+[Sat Mar 11 10:32:55 2023|train_eval.py|INFO] =====第0轮训练=====
+[Sat Mar 11 10:34:01 2023|run.py|INFO] 数据加载完成
+[Sat Mar 11 10:34:01 2023|run.py|INFO] 模型加载完成
+[Sat Mar 11 10:34:01 2023|run.py|INFO] 开始训练
+[Sat Mar 11 10:34:01 2023|train_eval.py|INFO] =====第0轮训练=====
+[Sat Mar 11 10:36:03 2023|train_eval.py|INFO] Iter:      1,  Val P: 0.04811,  Val R: 3.7618%,  Val F1: 0.02159,  Val Acc: 9.0447%,  Time: 0:02:02 *
+[Sat Mar 11 10:37:24 2023|train_eval.py|INFO] Iter:      2,  Val P: 0.04914,  Val R: 3.8928%,  Val F1: 0.02311,  Val Acc: 10.2140%,  Time: 0:03:22 
+[Sat Mar 11 10:38:36 2023|run.py|INFO] 数据加载完成
+[Sat Mar 11 10:38:36 2023|run.py|INFO] 模型加载完成
+[Sat Mar 11 10:38:36 2023|run.py|INFO] 开始训练
+[Sat Mar 11 10:38:36 2023|train_eval.py|INFO] =====第0轮训练=====
+[Sat Mar 11 10:45:20 2023|train_eval.py|INFO] Iter:    300,  Val P: 0.1887,  Val R: 10.0156%,  Val F1: 0.09474,  Val Acc: 62.3712%,  Time: 0:06:44 *
+[Sat Mar 11 10:52:43 2023|train_eval.py|INFO] Iter:    600,  Val P: 0.194,  Val R: 16.9451%,  Val F1: 0.1642,  Val Acc: 67.5766%,  Time: 0:14:07 
+[Sat Mar 11 10:53:23 2023|train_eval.py|INFO] =====第1轮训练=====
+[Sat Mar 11 11:00:55 2023|train_eval.py|INFO] Iter:    900,  Val P: 0.3122,  Val R: 19.9568%,  Val F1: 0.1973,  Val Acc: 70.8196%,  Time: 0:22:19 
+[Sat Mar 11 11:07:57 2023|train_eval.py|INFO] Iter:   1200,  Val P: 0.3607,  Val R: 21.7561%,  Val F1: 0.2254,  Val Acc: 72.1598%,  Time: 0:29:21 
+[Sat Mar 11 11:08:40 2023|train_eval.py|INFO] =====第2轮训练=====
+[Sat Mar 11 11:15:02 2023|train_eval.py|INFO] Iter:   1500,  Val P: 0.4098,  Val R: 25.0839%,  Val F1: 0.2677,  Val Acc: 73.6387%,  Time: 0:36:26 
+[Sat Mar 11 11:22:22 2023|train_eval.py|INFO] Iter:   1800,  Val P: 0.453,  Val R: 28.4716%,  Val F1: 0.3084,  Val Acc: 74.9977%,  Time: 0:43:46 
+[Sat Mar 11 11:23:44 2023|train_eval.py|INFO] =====第3轮训练=====
+[Sat Mar 11 11:29:54 2023|train_eval.py|INFO] Iter:   2100,  Val P: 0.4605,  Val R: 31.7922%,  Val F1: 0.3441,  Val Acc: 76.1682%,  Time: 0:51:18 
+[Sat Mar 11 11:36:45 2023|train_eval.py|INFO] Iter:   2400,  Val P: 0.4576,  Val R: 34.3977%,  Val F1: 0.373,  Val Acc: 76.8397%,  Time: 0:58:09 
+[Sat Mar 11 11:38:35 2023|train_eval.py|INFO] =====第4轮训练=====
+[Sat Mar 11 11:44:08 2023|train_eval.py|INFO] Iter:   2700,  Val P: 0.5535,  Val R: 36.9319%,  Val F1: 0.3977,  Val Acc: 77.6349%,  Time: 1:05:32 
+[Sat Mar 11 11:50:58 2023|train_eval.py|INFO] Iter:   3000,  Val P: 0.5367,  Val R: 38.0754%,  Val F1: 0.411,  Val Acc: 77.9977%,  Time: 1:12:22 
+[Sat Mar 11 11:53:02 2023|train_eval.py|INFO] =====第5轮训练=====
+[Sat Mar 11 11:58:15 2023|train_eval.py|INFO] Iter:   3300,  Val P: 0.5155,  Val R: 40.6511%,  Val F1: 0.4313,  Val Acc: 78.0939%,  Time: 1:19:39 
+[Sat Mar 11 12:05:45 2023|train_eval.py|INFO] Iter:   3600,  Val P: 0.5378,  Val R: 41.5204%,  Val F1: 0.4463,  Val Acc: 78.5220%,  Time: 1:27:09 
+[Sat Mar 11 12:08:05 2023|train_eval.py|INFO] =====第6轮训练=====
+[Sat Mar 11 12:13:51 2023|train_eval.py|INFO] Iter:   3900,  Val P: 0.5287,  Val R: 43.1024%,  Val F1: 0.4596,  Val Acc: 78.8457%,  Time: 1:35:15 
+[Sat Mar 11 12:21:43 2023|train_eval.py|INFO] Iter:   4200,  Val P: 0.5738,  Val R: 44.2203%,  Val F1: 0.4678,  Val Acc: 79.1787%,  Time: 1:43:07 
+[Sat Mar 11 12:24:42 2023|train_eval.py|INFO] =====第7轮训练=====
+[Sat Mar 11 12:29:07 2023|train_eval.py|INFO] Iter:   4500,  Val P: 0.5759,  Val R: 44.7297%,  Val F1: 0.4726,  Val Acc: 79.1658%,  Time: 1:50:31 
+[Sat Mar 11 12:35:51 2023|train_eval.py|INFO] Iter:   4800,  Val P: 0.5792,  Val R: 45.3282%,  Val F1: 0.4775,  Val Acc: 78.8480%,  Time: 1:57:15 
+[Sat Mar 11 12:38:43 2023|train_eval.py|INFO] =====第8轮训练=====
+[Sat Mar 11 12:42:00 2023|train_eval.py|INFO] Iter:   5100,  Val P: 0.6062,  Val R: 45.6786%,  Val F1: 0.4837,  Val Acc: 79.5007%,  Time: 2:03:24 
+[Sat Mar 11 12:47:51 2023|train_eval.py|INFO] Iter:   5400,  Val P: 0.6046,  Val R: 45.4321%,  Val F1: 0.4857,  Val Acc: 79.1744%,  Time: 2:09:15 
+[Sat Mar 11 12:50:44 2023|train_eval.py|INFO] =====第9轮训练=====
+[Sat Mar 11 12:53:34 2023|train_eval.py|INFO] Iter:   5700,  Val P: 0.5894,  Val R: 46.5474%,  Val F1:  0.49,  Val Acc: 79.5598%,  Time: 2:14:58 
+[Sat Mar 11 12:59:16 2023|train_eval.py|INFO] Iter:   6000,  Val P: 0.5678,  Val R: 46.8523%,  Val F1: 0.4917,  Val Acc: 79.3532%,  Time: 2:20:40 
+[Sat Mar 11 13:02:45 2023|train_eval.py|INFO] =====第10轮训练=====
+[Sat Mar 11 13:05:21 2023|train_eval.py|INFO] Iter:   6300,  Val P: 0.5906,  Val R: 47.3772%,  Val F1: 0.501,  Val Acc: 79.7895%,  Time: 2:26:45 
+[Sat Mar 11 13:11:17 2023|train_eval.py|INFO] Iter:   6600,  Val P: 0.579,  Val R: 47.7989%,  Val F1: 0.5047,  Val Acc: 79.6467%,  Time: 2:32:41 
+[Sat Mar 11 13:15:00 2023|train_eval.py|INFO] =====第11轮训练=====
+[Sat Mar 11 13:17:10 2023|train_eval.py|INFO] Iter:   6900,  Val P: 0.6364,  Val R: 46.7518%,  Val F1: 0.4992,  Val Acc: 79.4338%,  Time: 2:38:34 
+[Sat Mar 11 13:23:10 2023|train_eval.py|INFO] Iter:   7200,  Val P: 0.6467,  Val R: 47.7065%,  Val F1: 0.5104,  Val Acc: 79.5810%,  Time: 2:44:34 
+[Sat Mar 11 13:27:08 2023|train_eval.py|INFO] =====第12轮训练=====
+[Sat Mar 11 13:29:05 2023|train_eval.py|INFO] Iter:   7500,  Val P: 0.6544,  Val R: 49.5493%,  Val F1: 0.5247,  Val Acc: 79.7512%,  Time: 2:50:29 
+[Sat Mar 11 13:34:50 2023|train_eval.py|INFO] Iter:   7800,  Val P: 0.7018,  Val R: 49.5870%,  Val F1: 0.5258,  Val Acc: 79.5207%,  Time: 2:56:14 
+[Sat Mar 11 13:39:27 2023|train_eval.py|INFO] =====第13轮训练=====
+[Sat Mar 11 13:40:59 2023|train_eval.py|INFO] Iter:   8100,  Val P: 0.6967,  Val R: 50.0274%,  Val F1: 0.5329,  Val Acc: 79.8897%,  Time: 3:02:23 
+[Sat Mar 11 13:46:50 2023|train_eval.py|INFO] Iter:   8400,  Val P: 0.6681,  Val R: 50.1238%,  Val F1: 0.5366,  Val Acc: 79.6999%,  Time: 3:08:14 
+[Sat Mar 11 13:52:42 2023|train_eval.py|INFO] Iter:   8700,  Val P: 0.6809,  Val R: 50.8401%,  Val F1: 0.5461,  Val Acc: 79.9410%,  Time: 3:14:06 
+[Sat Mar 11 13:53:08 2023|train_eval.py|INFO] =====第14轮训练=====
+[Sat Mar 11 14:00:13 2023|train_eval.py|INFO] Iter:   9000,  Val P: 0.674,  Val R: 50.7017%,  Val F1: 0.5451,  Val Acc: 79.8150%,  Time: 3:21:38 
+[Sat Mar 11 14:06:55 2023|train_eval.py|INFO] Iter:   9300,  Val P: 0.6774,  Val R: 51.4622%,  Val F1: 0.5536,  Val Acc: 79.7512%,  Time: 3:28:19 
+[Sat Mar 11 14:07:37 2023|train_eval.py|INFO] =====第15轮训练=====
+[Sat Mar 11 14:13:52 2023|train_eval.py|INFO] Iter:   9600,  Val P: 0.6726,  Val R: 51.1536%,  Val F1: 0.5516,  Val Acc: 78.9854%,  Time: 3:35:16 
+[Sat Mar 11 14:20:25 2023|train_eval.py|INFO] Iter:   9900,  Val P: 0.6748,  Val R: 52.2014%,  Val F1: 0.5602,  Val Acc: 79.8447%,  Time: 3:41:49 
+[Sat Mar 11 14:21:37 2023|train_eval.py|INFO] =====第16轮训练=====
+[Sat Mar 11 14:27:31 2023|train_eval.py|INFO] Iter:  10200,  Val P: 0.6751,  Val R: 51.4185%,  Val F1: 0.5567,  Val Acc: 79.4737%,  Time: 3:48:55 
+[Sat Mar 11 14:35:07 2023|train_eval.py|INFO] Iter:  10500,  Val P: 0.6758,  Val R: 53.0351%,  Val F1: 0.5678,  Val Acc: 79.7731%,  Time: 3:56:32 
+[Sat Mar 11 14:36:45 2023|train_eval.py|INFO] =====第17轮训练=====
+[Sat Mar 11 14:41:52 2023|train_eval.py|INFO] Iter:  10800,  Val P: 0.6742,  Val R: 53.5770%,  Val F1: 0.5787,  Val Acc: 79.7250%,  Time: 4:03:16 
+[Sat Mar 11 14:48:27 2023|train_eval.py|INFO] Iter:  11100,  Val P: 0.6756,  Val R: 53.1820%,  Val F1: 0.5751,  Val Acc: 79.5602%,  Time: 4:09:51 
+[Sat Mar 11 14:50:34 2023|train_eval.py|INFO] =====第18轮训练=====
+[Sat Mar 11 14:55:32 2023|train_eval.py|INFO] Iter:  11400,  Val P: 0.6719,  Val R: 53.5154%,  Val F1: 0.5748,  Val Acc: 79.6984%,  Time: 4:16:56 
+[Sat Mar 11 15:02:23 2023|train_eval.py|INFO] Iter:  11700,  Val P: 0.6693,  Val R: 55.1804%,  Val F1: 0.5881,  Val Acc: 80.0103%,  Time: 4:23:47 
+[Sat Mar 11 15:05:17 2023|train_eval.py|INFO] =====第19轮训练=====
+[Sat Mar 11 15:11:08 2023|train_eval.py|INFO] Iter:  12000,  Val P: 0.6585,  Val R: 52.7935%,  Val F1: 0.5686,  Val Acc: 79.2147%,  Time: 4:32:33 
+[Sat Mar 11 15:19:18 2023|train_eval.py|INFO] Iter:  12300,  Val P: 0.6791,  Val R: 53.6025%,  Val F1: 0.5798,  Val Acc: 79.6545%,  Time: 4:40:42 
+[Sat Mar 11 15:22:27 2023|train_eval.py|INFO] =====第20轮训练=====
+[Sat Mar 11 15:26:55 2023|train_eval.py|INFO] Iter:  12600,  Val P: 0.6699,  Val R: 54.1177%,  Val F1: 0.5787,  Val Acc: 79.5457%,  Time: 4:48:19 
+[Sat Mar 11 15:34:05 2023|train_eval.py|INFO] Iter:  12900,  Val P: 0.6569,  Val R: 53.6818%,  Val F1: 0.5777,  Val Acc: 79.3446%,  Time: 4:55:29 
+[Sat Mar 11 15:37:31 2023|train_eval.py|INFO] =====第21轮训练=====
+[Sat Mar 11 15:41:30 2023|train_eval.py|INFO] Iter:  13200,  Val P: 0.666,  Val R: 54.7501%,  Val F1: 0.5825,  Val Acc: 79.5951%,  Time: 5:02:54 
+[Sat Mar 11 15:49:42 2023|train_eval.py|INFO] Iter:  13500,  Val P: 0.6698,  Val R: 55.0953%,  Val F1: 0.5894,  Val Acc: 79.3810%,  Time: 5:11:06 
+[Sat Mar 11 15:54:30 2023|train_eval.py|INFO] =====第22轮训练=====
+[Sat Mar 11 15:58:09 2023|train_eval.py|INFO] Iter:  13800,  Val P: 0.6746,  Val R: 54.0919%,  Val F1: 0.5824,  Val Acc: 79.2879%,  Time: 5:19:33 
+[Sat Mar 11 16:05:03 2023|train_eval.py|INFO] Iter:  14100,  Val P: 0.6651,  Val R: 54.7393%,  Val F1: 0.5877,  Val Acc: 79.3102%,  Time: 5:26:27 
+[Sat Mar 11 16:09:14 2023|train_eval.py|INFO] =====第23轮训练=====
+[Sat Mar 11 16:12:26 2023|train_eval.py|INFO] Iter:  14400,  Val P: 0.6609,  Val R: 54.2155%,  Val F1: 0.5824,  Val Acc: 79.7809%,  Time: 5:33:50 
+[Sat Mar 11 16:19:35 2023|train_eval.py|INFO] Iter:  14700,  Val P:  0.66,  Val R: 55.0057%,  Val F1: 0.5893,  Val Acc: 79.5645%,  Time: 5:40:59 
+[Sat Mar 11 16:24:10 2023|train_eval.py|INFO] =====第24轮训练=====
+[Sat Mar 11 16:27:08 2023|train_eval.py|INFO] Iter:  15000,  Val P: 0.6653,  Val R: 54.2643%,  Val F1: 0.5842,  Val Acc: 79.5097%,  Time: 5:48:32 
+[Sat Mar 11 16:34:11 2023|train_eval.py|INFO] Iter:  15300,  Val P: 0.6623,  Val R: 54.4720%,  Val F1: 0.5824,  Val Acc: 79.7070%,  Time: 5:55:35 
+[Sat Mar 11 16:39:21 2023|train_eval.py|INFO] =====第25轮训练=====
